@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(251, 235, 217);
+}
+header {
+  padding: 10px;
+  text-align:center;
+  background-color: rgb(224, 172, 208);
+  box-shadow: 0px 3px 5px rgb(41, 29, 43);
+  border-radius: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+header h1 {
+  font-size: 60px;
+  color: azure;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 5px 1px 10px black;;
+}
+
+.container{
+  display: inline-flex;
+  float: center;
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 5px 20px;
+  width: 80%;
+  margin: 5px auto auto 130px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+#options {
+  display: inline-flex;
+}
+.color {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0px 3px 5px rgb(41, 29, 43);
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.color:hover {
+  padding: 0px;
+}
+
+
+#board-size {
+  margin: 5px;
+  padding: 15px 20px;
+  border: 2px solid white;
+  box-shadow: 0px 3px 5px rgb(41, 29, 43);
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(224, 172, 208);
+  box-shadow: 0px 3px 5px rgb(41, 29, 43);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#pixel-board {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px 40px 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
